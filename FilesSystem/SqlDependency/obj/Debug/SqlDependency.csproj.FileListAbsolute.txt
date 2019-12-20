@@ -1,0 +1,12 @@
+C:\Users\Curso\source\repos\FilesSystem\SqlDependency\obj\Debug\SqlDependency.csprojAssemblyReference.cache
+C:\Users\Curso\source\repos\FilesSystem\SqlDependency\obj\Debug\SqlDependency.csproj.CoreCompileInputs.cache
+C:\Users\Curso\source\repos\FilesSystem\SqlDependency\bin\Debug\SqlDependency.exe.config
+C:\Users\Curso\source\repos\FilesSystem\SqlDependency\bin\Debug\SqlDependency.exe
+C:\Users\Curso\source\repos\FilesSystem\SqlDependency\bin\Debug\SqlDependency.pdb
+C:\Users\Curso\source\repos\FilesSystem\SqlDependency\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Curso\source\repos\FilesSystem\SqlDependency\bin\Debug\System.Data.Common.dll
+C:\Users\Curso\source\repos\FilesSystem\SqlDependency\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Curso\source\repos\FilesSystem\SqlDependency\bin\Debug\TableDependency.SqlClient.dll
+C:\Users\Curso\source\repos\FilesSystem\SqlDependency\obj\Debug\SqlDependency.csproj.CopyComplete
+C:\Users\Curso\source\repos\FilesSystem\SqlDependency\obj\Debug\SqlDependency.exe
+C:\Users\Curso\source\repos\FilesSystem\SqlDependency\obj\Debug\SqlDependency.pdb
