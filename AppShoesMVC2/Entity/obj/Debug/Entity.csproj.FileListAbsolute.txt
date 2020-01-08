@@ -1,0 +1,5 @@
+C:\Users\Curso\source\repos\AppShoesMVC2\Entity\bin\Debug\Entity.dll
+C:\Users\Curso\source\repos\AppShoesMVC2\Entity\bin\Debug\Entity.pdb
+C:\Users\Curso\source\repos\AppShoesMVC2\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\Users\Curso\source\repos\AppShoesMVC2\Entity\obj\Debug\Entity.dll
+C:\Users\Curso\source\repos\AppShoesMVC2\Entity\obj\Debug\Entity.pdb

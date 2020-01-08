@@ -1,0 +1,118 @@
+﻿@model IEnumerable<Entity.Products>
+
+@{
+    ViewBag.Title = "Products List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Products</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", "Products")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IdType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdColor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdBrand)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdProvider)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdCatalog)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Observations)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PriceDistributor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PriceClient)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PriceMember)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsEnabled)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Keywords)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateUpdate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.IdType)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.IdColor)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.IdBrand)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.IdProvider)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.IdCatalog)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Title)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Description)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Observations)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PriceDistributor)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PriceClient)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PriceMember)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.IsEnabled)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Keywords)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.DateUpdate)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+        @Html.ActionLink("Details", "GetProduct", new { id = item.Id }) |
+        @Html.ActionLink("Delete", "LogDelete", new { id = item.Id })
+    </td>
+</tr>
+}
+
+</table>
