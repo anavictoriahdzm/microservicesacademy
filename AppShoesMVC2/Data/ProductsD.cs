@@ -80,5 +80,16 @@ namespace Data
                 db.SaveChanges();
             }
         }
+
+        public List<Products> BuscaPorNombre(string cadena)
+        {
+            using (var db = new DataProductsContext())
+            {
+                return db.Products.Where(p =>
+                p.Nombre.Contains(cadena) ||
+                p.Id.ToString().Contains(cadena)
+                ).ToList();
+            }
+        }
     }
 }

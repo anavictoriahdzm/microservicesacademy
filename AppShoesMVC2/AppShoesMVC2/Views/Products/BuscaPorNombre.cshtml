@@ -1,14 +1,14 @@
 ﻿@model IEnumerable<Entity.Products>
 
 @{
-    ViewBag.Title = "Products List";
+    ViewBag.Title = "Busqueda";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Products</h2>
+<h2>BuscaPorNombre</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create", "Products")
+    @Html.ActionLink("Create New", "Create")
 </p>
 @using (Html.BeginForm("BuscaPorNombre", "Products", FormMethod.Post))
 {
@@ -131,10 +131,14 @@
     </td>
     <td>
         @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-        @Html.ActionLink("Details", "GetProduct", new { id = item.Id }) |
         @Html.ActionLink("Delete", "LogDelete", new { id = item.Id })
     </td>
 </tr>
     }
 
+    
+
 </table>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

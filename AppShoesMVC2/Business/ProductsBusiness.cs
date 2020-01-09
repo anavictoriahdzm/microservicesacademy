@@ -40,5 +40,10 @@ namespace Business
         {
             obj.LogDelete(prod);
         }
+
+        public static List<Products> BuscaPorNombre(string cadena)
+        {
+            return obj.BuscaPorNombre(cadena);
+        }
     }
 }

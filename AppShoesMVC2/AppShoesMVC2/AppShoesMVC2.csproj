@@ -242,6 +242,7 @@
     <Content Include="Views\Products\Edit.cshtml" />
     <Content Include="Views\Products\Delete.cshtml" />
     <Content Include="Views\Products\LogDelete.cshtml" />
+    <Content Include="Views\Products\BuscaPorNombre.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

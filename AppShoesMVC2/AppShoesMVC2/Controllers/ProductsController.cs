@@ -109,5 +109,19 @@ namespace AppShoesMVC2.Controllers
                 return View(prod);
             }
         }
+
+        public ActionResult BuscaPorNombre(string cadena)
+        {
+            if (!string.IsNullOrEmpty(cadena))
+            {
+                var prod = ProductsBusiness.BuscaPorNombre(cadena);
+                return View(prod);
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
+
+        }
     }
 }
