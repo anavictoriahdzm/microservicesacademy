@@ -1,0 +1,11 @@
+﻿@model List<Google.Apis.YouTube.v3.Data.SearchResult>
+
+@foreach (var item in Model)
+{
+    <br />
+    @item.Snippet.Title
+    <br />
+
+    <br />
+}
+
