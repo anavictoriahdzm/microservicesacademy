@@ -9,9 +9,10 @@
             <br />
             @item.Snippet.Title
             <br />
-            @*<p><a class="btn btn-default" href="" onclick="">Agregar</a></p>*@
+            @*<p><a class="btn btn-default" href="javascript:void(0)" onclick="player.destroy(); onYouTubeIframeAPIReady('@item.Id.VideoId');">Agregar</a></p>*@
+            <p><a class="btn btn-default" href="javascript:void(0)" onclick="btnbuscar(VideoId);">Agregar</a></p>
             <img class="img-responsive" src="http://img.youtube.com/vi/@item.Id.VideoId/mqdefault.jpg">
-            <button type="button" onclick="player.destroy(); onYouTubeIframeAPIReady('@item.Id.VideoId');" class="btn btn-danger">Agregar</button>
+            @*<button type="button" onclick="player.destroy(); onYouTubeIframeAPIReady('@item.Id.VideoId');" class="btn btn-danger">Agregar</button>*@
             @*<iframe width="560" height="315" src="https://www.youtube.com/embed/@item.Id.VideoId" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>*@
             @*<iframe width="260" height="200" src="https://www.youtube.com/embed/@item.Id.VideoId" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>*@
             <br />
@@ -63,6 +64,22 @@
     }
     function stopVideo() {
         player.stopVideo();
+    }
+</script>
+
+<script>
+    function btnbuscar()
+    {
+        $.ajax(
+            {
+                url: '@Url.Action("AddToPlayList")?IdVideo='+$('#IdVideo').val(),
+                type: 'GET',
+                success: function (result)
+                {
+                    $('#Playlist').html(result);
+                    //respuesta
+                }
+            });
     }
 </script>
 
