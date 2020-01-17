@@ -35,18 +35,23 @@ namespace Rockola2.Controllers
             return PartialView(searchListResponse.Items);
         }
 
-        public ActionResult About()
+        public void Declare()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+            List<string> PlayListIds = new List<string>();
+            if (Session["Playlist"] == null)
+            {
+                Session["Playlist"] = PlayListIds;
+            }
         }
 
-        public ActionResult Contact()
+        [HttpGet]
+        public ActionResult AddToPlayList(string IdVideo)
         {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            Declare();
+            List<string> ListVideosId = (List<string>)Session["Playlist"];
+            ListVideosId.Add(IdVideo);
+            Session["Playlist"] = ListVideosId;
+            return PartialView("Playlist", ListVideosId);
         }
     }
 }

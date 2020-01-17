@@ -1,0 +1,10 @@
+﻿@model List<string>
+
+    <div>
+        @foreach (var item in Model)
+        {
+            
+          <img onclick="btnPlay('@item')" scr="http://img.yputube.com/vi/@item/mqdefault.jpg" alt="@item">
+          
+        }
+    </div>
