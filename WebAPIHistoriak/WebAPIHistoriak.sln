@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIHistoriak", "WebAPIHistoriak\WebAPIHistoriak.csproj", "{678198DA-488B-44A7-80BF-894971C7C625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{678198DA-488B-44A7-80BF-894971C7C625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678198DA-488B-44A7-80BF-894971C7C625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678198DA-488B-44A7-80BF-894971C7C625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678198DA-488B-44A7-80BF-894971C7C625}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A7A7E39-7718-45A5-9AC0-E23BE3993F9E}
+	EndGlobalSection
+EndGlobal
