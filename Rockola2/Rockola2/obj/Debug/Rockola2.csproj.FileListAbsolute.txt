@@ -182,3 +182,5 @@ C:\Users\Curso\source\repos\proyectos\Rockola2\Rockola2\obj\Debug\Rockola2.cspro
 C:\Users\Curso\source\repos\proyectos\Rockola2\Rockola2\obj\Debug\Rockola2.csproj.CopyComplete
 C:\Users\Curso\source\repos\proyectos\Rockola2\Rockola2\obj\Debug\Rockola2.dll
 C:\Users\Curso\source\repos\proyectos\Rockola2\Rockola2\obj\Debug\Rockola2.pdb
+C:\Users\Curso\source\repos\proyectos\Rockola2\Rockola2\bin\System.Net.Http.Formatting.dll
+C:\Users\Curso\source\repos\proyectos\Rockola2\Rockola2\bin\System.Net.Http.Formatting.xml
