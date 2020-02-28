@@ -25,7 +25,7 @@ namespace Rockola2.Controllers
                 client.DefaultRequestHeaders.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 //llama todo el contenido usando el HttpClient
-                HttpResponseMessage Res = await client.GetAsync("api/HistorialY/");
+                HttpResponseMessage Res = await client.GetAsync("api/HistorialTs/");
                 if(Res.IsSuccessStatusCode)
                 {
                     //Si Rest = true entra y asigna los datos
@@ -34,7 +34,7 @@ namespace Rockola2.Controllers
                     HistorialInfo = JsonConvert.DeserializeObject<List<HistorialY>>(HistorialResponse);
                 }
                 //Muestra la lista de todos los usuarios
-                return View();
+                return View(HistorialInfo);
             }
         }
     }

@@ -1,0 +1,11 @@
+C:\Users\Curso\source\repos\EmailCore\EmailCore\bin\Debug\netcoreapp3.1\EmailCore.exe
+C:\Users\Curso\source\repos\EmailCore\EmailCore\bin\Debug\netcoreapp3.1\EmailCore.deps.json
+C:\Users\Curso\source\repos\EmailCore\EmailCore\bin\Debug\netcoreapp3.1\EmailCore.runtimeconfig.json
+C:\Users\Curso\source\repos\EmailCore\EmailCore\bin\Debug\netcoreapp3.1\EmailCore.runtimeconfig.dev.json
+C:\Users\Curso\source\repos\EmailCore\EmailCore\bin\Debug\netcoreapp3.1\EmailCore.dll
+C:\Users\Curso\source\repos\EmailCore\EmailCore\bin\Debug\netcoreapp3.1\EmailCore.pdb
+C:\Users\Curso\source\repos\EmailCore\EmailCore\obj\Debug\netcoreapp3.1\EmailCore.csprojAssemblyReference.cache
+C:\Users\Curso\source\repos\EmailCore\EmailCore\obj\Debug\netcoreapp3.1\EmailCore.AssemblyInfoInputs.cache
+C:\Users\Curso\source\repos\EmailCore\EmailCore\obj\Debug\netcoreapp3.1\EmailCore.AssemblyInfo.cs
+C:\Users\Curso\source\repos\EmailCore\EmailCore\obj\Debug\netcoreapp3.1\EmailCore.dll
+C:\Users\Curso\source\repos\EmailCore\EmailCore\obj\Debug\netcoreapp3.1\EmailCore.pdb
