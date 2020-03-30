@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailCore", "EmailCore\EmailCore.csproj", "{3B3BFD92-F86F-41B7-AA31-3D4A89352000}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailCore", "EmailCore\EmailCore.csproj", "{3B3BFD92-F86F-41B7-AA31-3D4A89352000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email.UnitTests", "Email.UnitTests\Email.UnitTests.csproj", "{E5ACF3ED-CB50-4FCA-B60C-387F1DF23EF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3B3BFD92-F86F-41B7-AA31-3D4A89352000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B3BFD92-F86F-41B7-AA31-3D4A89352000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B3BFD92-F86F-41B7-AA31-3D4A89352000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5ACF3ED-CB50-4FCA-B60C-387F1DF23EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5ACF3ED-CB50-4FCA-B60C-387F1DF23EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5ACF3ED-CB50-4FCA-B60C-387F1DF23EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5ACF3ED-CB50-4FCA-B60C-387F1DF23EF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

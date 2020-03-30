@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Curso\\source\\repos\\EmailCore\\EmailCore\\EmailCore.csproj": {}
+    "C:\\Users\\Curso\\source\\repos\\proyectos\\EmailCore\\EmailCore\\EmailCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Curso\\source\\repos\\EmailCore\\EmailCore\\EmailCore.csproj": {
+    "C:\\Users\\Curso\\source\\repos\\proyectos\\EmailCore\\EmailCore\\EmailCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Curso\\source\\repos\\EmailCore\\EmailCore\\EmailCore.csproj",
+        "projectUniqueName": "C:\\Users\\Curso\\source\\repos\\proyectos\\EmailCore\\EmailCore\\EmailCore.csproj",
         "projectName": "EmailCore",
-        "projectPath": "C:\\Users\\Curso\\source\\repos\\EmailCore\\EmailCore\\EmailCore.csproj",
+        "projectPath": "C:\\Users\\Curso\\source\\repos\\proyectos\\EmailCore\\EmailCore\\EmailCore.csproj",
         "packagesPath": "C:\\Users\\Curso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Curso\\source\\repos\\EmailCore\\EmailCore\\obj\\",
+        "outputPath": "C:\\Users\\Curso\\source\\repos\\proyectos\\EmailCore\\EmailCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Curso\\AppData\\Roaming\\NuGet\\NuGet.Config",
