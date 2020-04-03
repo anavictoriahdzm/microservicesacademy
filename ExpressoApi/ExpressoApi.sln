@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressoApi", "ExpressoApi\ExpressoApi.csproj", "{A62D7445-F7B0-4590-8ECC-1711F4DB162A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A62D7445-F7B0-4590-8ECC-1711F4DB162A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62D7445-F7B0-4590-8ECC-1711F4DB162A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62D7445-F7B0-4590-8ECC-1711F4DB162A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62D7445-F7B0-4590-8ECC-1711F4DB162A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B64224A4-67CA-4F74-A63F-19F4DCF7A3F9}
+	EndGlobalSection
+EndGlobal
