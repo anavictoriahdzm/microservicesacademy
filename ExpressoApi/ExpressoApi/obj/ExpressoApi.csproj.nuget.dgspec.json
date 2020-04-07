@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Curso\\source\\repos\\ExpressoApi\\ExpressoApi\\ExpressoApi.csproj": {}
+    "C:\\Users\\Curso\\source\\repos\\proyectos\\ExpressoApi\\ExpressoApi\\ExpressoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Curso\\source\\repos\\ExpressoApi\\ExpressoApi\\ExpressoApi.csproj": {
+    "C:\\Users\\Curso\\source\\repos\\proyectos\\ExpressoApi\\ExpressoApi\\ExpressoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Curso\\source\\repos\\ExpressoApi\\ExpressoApi\\ExpressoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Curso\\source\\repos\\proyectos\\ExpressoApi\\ExpressoApi\\ExpressoApi.csproj",
         "projectName": "ExpressoApi",
-        "projectPath": "C:\\Users\\Curso\\source\\repos\\ExpressoApi\\ExpressoApi\\ExpressoApi.csproj",
+        "projectPath": "C:\\Users\\Curso\\source\\repos\\proyectos\\ExpressoApi\\ExpressoApi\\ExpressoApi.csproj",
         "packagesPath": "C:\\Users\\Curso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Curso\\source\\repos\\ExpressoApi\\ExpressoApi\\obj\\",
+        "outputPath": "C:\\Users\\Curso\\source\\repos\\proyectos\\ExpressoApi\\ExpressoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Curso\\AppData\\Roaming\\NuGet\\NuGet.Config",
