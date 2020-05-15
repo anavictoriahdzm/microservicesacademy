@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json.Serialization;
+using Microsoft.OpenApi.Models;
 
 namespace CityInfo.API
 {
@@ -21,21 +22,23 @@ namespace CityInfo.API
             services.AddMvc();
 
             //Para que el texto lo regrese en XML
-                /*.AddMvcOptions(o =>
-                {
-                    o.OutputFormatters.Add(new XmlDataContractSerializerOutputFormatter());
-                });*=
+            /*.AddMvcOptions(o =>
+            {
+                o.OutputFormatters.Add(new XmlDataContractSerializerOutputFormatter());
+            });*=
 
-            //Para que el texto lo regrese en Json
-               /* .AddJsonOptions(O =>
+        //Para que el texto lo regrese en Json
+           /* .AddJsonOptions(O =>
+           {
+               if (O.SerializerSettings.ContractResolver != null)
                {
-                   if (O.SerializerSettings.ContractResolver != null)
-                   {
-                       var castedResolver = O.SerializerSettings.ContractResolver
-                       as DefaultContractResolver;
-                       castedResolver.NamingStrategy = null;
-                   }
-               });*/
+                   var castedResolver = O.SerializerSettings.ContractResolver
+                   as DefaultContractResolver;
+                   castedResolver.NamingStrategy = null;
+               }
+           });*/
+
+            services.AddSwaggerGen(c => c.SwaggerDoc("v1", new OpenApiInfo { Title = "CityInfo API", Version = "v1"}));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +55,9 @@ namespace CityInfo.API
 
             app.UseStatusCodePages();
             app.UseMvc();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CityInfo API"));
         }
     }
 }

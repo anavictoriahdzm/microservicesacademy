@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Curso\\source\\repos\\CityInfo\\CityInfo.API\\CityInfo.API.csproj": {}
+    "C:\\Users\\Curso\\source\\repos\\proyectos\\CityInfo\\CityInfo.API\\CityInfo.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Curso\\source\\repos\\CityInfo\\CityInfo.API\\CityInfo.API.csproj": {
+    "C:\\Users\\Curso\\source\\repos\\proyectos\\CityInfo\\CityInfo.API\\CityInfo.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Curso\\source\\repos\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
+        "projectUniqueName": "C:\\Users\\Curso\\source\\repos\\proyectos\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
         "projectName": "CityInfo.API",
-        "projectPath": "C:\\Users\\Curso\\source\\repos\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
+        "projectPath": "C:\\Users\\Curso\\source\\repos\\proyectos\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
         "packagesPath": "C:\\Users\\Curso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Curso\\source\\repos\\CityInfo\\CityInfo.API\\obj\\",
+        "outputPath": "C:\\Users\\Curso\\source\\repos\\proyectos\\CityInfo\\CityInfo.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Curso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -51,13 +55,21 @@
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.2.0, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.1, )"
             }
           },
           "imports": [
