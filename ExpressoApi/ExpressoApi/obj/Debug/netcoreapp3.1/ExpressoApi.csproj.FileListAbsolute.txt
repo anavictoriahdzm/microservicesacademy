@@ -254,3 +254,8 @@ C:\Users\Curso\source\repos\proyectos\ExpressoApi\ExpressoApi\obj\Debug\netcorea
 C:\Users\Curso\source\repos\proyectos\ExpressoApi\ExpressoApi\obj\Debug\netcoreapp3.1\ExpressoApi.csproj.CopyComplete
 C:\Users\Curso\source\repos\proyectos\ExpressoApi\ExpressoApi\obj\Debug\netcoreapp3.1\ExpressoApi.dll
 C:\Users\Curso\source\repos\proyectos\ExpressoApi\ExpressoApi\obj\Debug\netcoreapp3.1\ExpressoApi.pdb
+C:\Users\Curso\source\repos\proyectos\ExpressoApi\ExpressoApi\bin\Debug\netcoreapp3.1\output\web.config
+C:\Users\Curso\source\repos\proyectos\ExpressoApi\ExpressoApi\bin\Debug\netcoreapp3.1\output\appsettings.Development.json
+C:\Users\Curso\source\repos\proyectos\ExpressoApi\ExpressoApi\bin\Debug\netcoreapp3.1\output\appsettings.json
+C:\Users\Curso\source\repos\proyectos\ExpressoApi\ExpressoApi\bin\Debug\netcoreapp3.1\output\ExpressoApi.deps.json
+C:\Users\Curso\source\repos\proyectos\ExpressoApi\ExpressoApi\bin\Debug\netcoreapp3.1\output\ExpressoApi.runtimeconfig.json
