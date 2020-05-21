@@ -1,0 +1,17 @@
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\bin\Debug\netcoreapp2.1\nlog.config
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\bin\Debug\netcoreapp2.1\appsettings.Production.json
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo2.API.deps.json
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo2.API.runtimeconfig.json
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo2.API.runtimeconfig.dev.json
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo2.API.dll
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo2.API.csprojAssemblyReference.cache
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo2.API.RazorAssemblyInfo.cache
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo2.API.RazorAssemblyInfo.cs
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo2.API.AssemblyInfoInputs.cache
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo2.API.AssemblyInfo.cs
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo2.API.RazorTargetAssemblyInfo.cache
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo2.API.pdb
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo2.API.dll
+C:\Users\Curso\source\repos\CityInfo2\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo2.API.pdb
